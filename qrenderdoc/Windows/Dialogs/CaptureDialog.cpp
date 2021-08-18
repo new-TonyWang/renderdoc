@@ -1222,7 +1222,10 @@ void CaptureDialog::SetEnvironmentModifications(const rdcarray<EnvironmentModifi
 
   ui->envVar->setText(envModText);
 }
-
+/**
+ * 开始捕捉画面
+ * 
+ */
 void CaptureDialog::TriggerCapture()
 {
   if(IsInjectMode())
@@ -1253,7 +1256,7 @@ void CaptureDialog::TriggerCapture()
   }
   else
   {
-    QString exe = ui->exePath->text().trimmed();
+    QString exe = ui->exePath->text().trimmed();//执行选定的程序
 
     if(exe.isEmpty())
     {
@@ -1287,7 +1290,7 @@ void CaptureDialog::TriggerCapture()
         workingDir = ui->workDirPath->text();
     }
 
-    QString cmdLine = ui->cmdline->text();
+    QString cmdLine = ui->cmdline->text();//默认为空
 
     SaveSettings(mostRecentFilename());
 

@@ -9,6 +9,7 @@ Release32/
 Release64/
 build/
 build-*/
+build_*/
 /dist/
 /package/
 util/buildscripts/support
@@ -45,3 +46,7 @@ qrenderdoc/3rdparty/pyside
 .DS_Store
 plugins-*/
 __pycache__
+cmake*
+*.vcxproj
+*.filters
+out

@@ -32,7 +32,7 @@ static rdcarray<LibraryHook *> &LibList()
   return libs;
 }
 
-LibraryHook::LibraryHook()
+LibraryHook::LibraryHook()//所有子函数的构造都会调用该函数例如EGLHook
 {
   LibList().push_back(this);
 }

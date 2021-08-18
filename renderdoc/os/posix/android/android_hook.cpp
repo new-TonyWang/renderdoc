@@ -209,7 +209,7 @@ private:
 
 HookingInfo &GetHookInfo()
 {
-  static HookingInfo hookinfo;
+  static HookingInfo hookinfo;//将全局变量转化为函数调用
   return hookinfo;
 }
 

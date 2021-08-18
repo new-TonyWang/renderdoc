@@ -2089,7 +2089,7 @@ void WrappedOpenGL::SwapBuffers(WindowingSystem winSystem, void *windowHandle)
         overlayText += StringFormat::Fmt("    %s\n", reasonString);
       }
 
-      RenderText(0.0f, 0.0f, overlayText);
+      RenderText(0.0f, 0.0f, overlayText);//在手机上显示信息
 
       // swallow all errors we might have inadvertantly caused. This is
       // better than letting an error propagate and maybe screw up the
@@ -2135,7 +2135,7 @@ void WrappedOpenGL::SwapBuffers(WindowingSystem winSystem, void *windowHandle)
 
   if(RenderDoc::Inst().ShouldTriggerCapture(m_FrameCounter) && IsBackgroundCapturing(m_State))
   {
-    RenderDoc::Inst().StartFrameCapture(ctxdata.ctx, windowHandle);
+    RenderDoc::Inst().StartFrameCapture(ctxdata.ctx, windowHandle);//开始捕捉画面
 
     m_AppControlledCapture = false;
     m_CapturedFrames.back().frameNumber = m_FrameCounter;
@@ -3046,7 +3046,7 @@ void WrappedOpenGL::BeginCaptureFrame()
 
     GetResourceManager()->MarkVAOReferenced(VertexArrayRes(GetCtx(), 0), eFrameRef_PartialWrite,
                                             true);
-
+    
     GL.glBindVertexArray(prevVAO);
   }
 }

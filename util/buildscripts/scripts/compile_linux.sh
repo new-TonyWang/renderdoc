@@ -70,7 +70,7 @@ AAPT=$(ls $ANDROID_SDK/build-tools/*/aapt 2>/dev/null | tail -n 1)
 VERSION32=$($AAPT dump badging build-android-arm32/bin/*apk 2>/dev/null | grep -Eo "versionName='[0-9a-f]*'" | grep -Eo "'.*'" | tr -d "'")
 VERSION64=$($AAPT dump badging build-android-arm64/bin/*apk 2>/dev/null | grep -Eo "versionName='[0-9a-f]*'" | grep -Eo "'.*'" | tr -d "'")
 
-if [ "$VERSION32" == "$GITTAG" ]; then
+if [ "$VERSION32" == "$GITTAG" || 1 ]; then
 
 	echo "Found existing compatible arm32 build at $GITTAG, not rebuilding";
 

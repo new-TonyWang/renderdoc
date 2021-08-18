@@ -52,7 +52,8 @@ else()
 endif()
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
-
+# message(${LLVM_DIR}/../../../install/include)
+# include_directories(${LLVM_DIR}/../../../install/include)
 add_subdirectory(lib)
 
 set(interceptor_libs ${interceptor_libs} PARENT_SCOPE)

@@ -33,7 +33,15 @@ MemoryManager::~MemoryManager() {
   for (const auto &alloc : allocations_)
     munmap(reinterpret_cast<void *>(alloc.start()), alloc.size());
 }
-
+/**
+ * @brief 
+ * 
+ * @param size 
+ * @param alignment arm的为0
+ * @param range_start 默认是0 
+ * @param range_end  默认最大值
+ * @return void* 
+ */
 void *MemoryManager::Allocate(size_t size, size_t alignment,
                               uintptr_t range_start, uintptr_t range_end) {
   assert(size > 0 && "Can't allocate 0 or negative amount of memory.");
@@ -43,7 +51,7 @@ void *MemoryManager::Allocate(size_t size, size_t alignment,
          "satisfied by a page boundary");
 
   for (Allocation &alloc : allocations_) {
-    if (void *addr = alloc.Alloc(size, alignment, range_start, range_end))
+    if (void *addr = alloc.Alloc(size, alignment, range_start, range_end))//先试一下能否放在同一页的里面
       return addr;
     if (range_start >= alloc.start() && range_start <= alloc.end())
       range_start = alloc.end();
@@ -51,8 +59,8 @@ void *MemoryManager::Allocate(size_t size, size_t alignment,
   void *target = mmap(reinterpret_cast<void *>(range_start), PAGE_SIZE, prot_,
                       flags_, 0, 0);
   if (!target) return nullptr;
-
-  allocations_.emplace_back(target, PAGE_SIZE);
+  
+  allocations_.emplace_back(target, PAGE_SIZE);//开辟新的一页
   return allocations_.back().Alloc(size, alignment, range_start, range_end);
 }
 

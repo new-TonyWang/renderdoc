@@ -1,0 +1,682 @@
+2021-06-24 17:46:29.649 2217-2217/? I/onandsandeffec: Late-enabling -Xcheck:jni
+2021-06-24 17:46:29.670 2217-2217/? E/onandsandeffec: Unknown bits set in runtime_flags: 0x8000
+2021-06-24 17:46:29.671 2217-2217/? I/onandsandeffec: Reinit property: dalvik.vm.checkjni= false
+2021-06-24 17:46:29.671 2217-2217/? I/onandsandeffec: ReInitProperties: persist.vm.debug.dumpapi= false
+2021-06-24 17:46:29.682 2217-2217/? D/ActivityThread: Attach thread to application
+2021-06-24 17:46:29.711 2217-2303/com.DefaultCompany.ShaderExplosionandsandeffect I/ActivityThread: Init compatible state: true
+2021-06-24 17:46:29.715 2217-2303/com.DefaultCompany.ShaderExplosionandsandeffect D/HwFrameworkSecurityPartsFactory: HwFrameworkSecurityPartsFactory in.
+2021-06-24 17:46:29.715 2217-2303/com.DefaultCompany.ShaderExplosionandsandeffect I/HwFrameworkSecurityPartsFactory: add HwFrameworkSecurityPartsFactory to memory.
+2021-06-24 17:46:29.715 2217-2303/com.DefaultCompany.ShaderExplosionandsandeffect D/BehaviorCollectManager: hook process for AI virus second
+2021-06-24 17:46:29.717 2217-2303/com.DefaultCompany.ShaderExplosionandsandeffect I/BehaviorCollectManager: bindAnalyzerService: huawei.android.security.IAppBehaviorDataAnalyzer$Stub$Proxy@1adb29a pid:2217
+2021-06-24 17:46:29.763 2217-2303/com.DefaultCompany.ShaderExplosionandsandeffect I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.DefaultCompany.ShaderExplosionandsandeffect#10647#256
+2021-06-24 17:46:29.763 2217-2303/com.DefaultCompany.ShaderExplosionandsandeffect I/HwApiCacheMangerEx: need clear apicache,because volumes changed,oldCnt=0 newCnt=1
+2021-06-24 17:46:29.764 2217-2303/com.DefaultCompany.ShaderExplosionandsandeffect I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.DefaultCompany.ShaderExplosionandsandeffect#10647#0
+2021-06-24 17:46:29.764 2217-2303/com.DefaultCompany.ShaderExplosionandsandeffect I/HwApiCacheMangerEx: need clear apicache,because volumes changed,oldCnt=1 newCnt=1
+2021-06-24 17:46:29.764 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect I/GraphicsEnvironment: GPU debug layers enabled for com.DefaultCompany.ShaderExplosionandsandeffect
+2021-06-24 17:46:29.764 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect I/GraphicsEnvironment: GPU debug layer app: org.renderdoc.renderdoccmd.arm64
+2021-06-24 17:46:29.765 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect I/GraphicsEnvironment: Vulkan debug layer list: VK_LAYER_RENDERDOC_Capture
+2021-06-24 17:46:29.765 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect I/GraphicsEnvironment: GLES debug layer list: libVkLayer_GLES_RenderDoc.so
+2021-06-24 17:46:29.768 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect I/ActivityThread: finishPreloaded preloadStatus 0
+2021-06-24 17:46:29.773 2217-2303/com.DefaultCompany.ShaderExplosionandsandeffect I/HwPartIawareFactory: add android.common.HwPartIawareFactoryImpl to memory.
+2021-06-24 17:46:29.773 2217-2303/com.DefaultCompany.ShaderExplosionandsandeffect I/AwareBitmapCacher: init processName:com.DefaultCompany.ShaderExplosionandsandeffect pid=2217 uid=10647
+2021-06-24 17:46:29.782 2217-2345/com.DefaultCompany.ShaderExplosionandsandeffect E/AwareLog: AtomicFileUtils: readFileLines file not exist: android.util.AtomicFile@a245e66
+2021-06-24 17:46:29.812 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect V/ActivityThread: callActivityOnCreate
+2021-06-24 17:46:29.829 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect I/IL2CPP: JNI_OnLoad
+2021-06-24 17:46:29.830 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: CommandLine:  
+2021-06-24 17:46:29.847 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect I/DecorView[]:  old windowMode:0 new windoMode:1
+2021-06-24 17:46:29.852 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect D/ActivityThread: add activity client record, r= ActivityRecord{77f1697 token=android.os.BinderProxy@afefba8 {com.DefaultCompany.ShaderExplosionandsandeffect/com.unity3d.player.UnityPlayerActivity}} token= android.os.BinderProxy@afefba8
+2021-06-24 17:46:29.852 2217-2353/com.DefaultCompany.ShaderExplosionandsandeffect D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+2021-06-24 17:46:29.853 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: onActivityResumed: com.unity3d.player.UnityPlayerActivity@91c4cf9
+2021-06-24 17:46:29.853 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect I/Unity: onResume
+2021-06-24 17:46:29.854 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect V/AudioManager: getStreamVolume streamType: 3 volume: 0
+2021-06-24 17:46:29.856 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect I/HwPartMagicWindowFactory: add android.common.HwPartMagicWindowFactoryImpl to memory.
+2021-06-24 17:46:29.867 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect I/HwPartPowerOfficeFactory: add HwPartPowerOfficeFactoryImpl to memory.
+2021-06-24 17:46:29.873 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect D/InputEventReceiver: dispatchInputInterval 1000000
+2021-06-24 17:46:29.895 2217-2366/com.DefaultCompany.ShaderExplosionandsandeffect D/HiTouch_PressGestureDetector: onAttached, package=com.DefaultCompany.ShaderExplosionandsandeffect, windowType=1, mHiTouchRestricted=false
+2021-06-24 17:46:29.901 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: SetWindow 0 0x77ae7dc010
+2021-06-24 17:46:29.901 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: SetWindow 0 0x77ae7dc010
+2021-06-24 17:46:29.904 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect W/Gralloc3: mapper 3.x is not supported
+2021-06-24 17:46:29.910 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect I/HwViewRootImpl: removeInvalidNode jank list is null
+2021-06-24 17:46:29.919 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect I/Unity: windowFocusChanged: true
+2021-06-24 17:46:29.920 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect D/DecorView: showOrHideHighlightView: hasFocus=true; winMode=1; isMrgNull=true
+2021-06-24 17:46:29.920 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect W/InputMethodManager: startInputReason = 1
+2021-06-24 17:46:29.930 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/Unity: MemoryManager: Using 'Dynamic Heap' Allocator.
+2021-06-24 17:46:29.932 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect W/InputMethodManager: startInputReason = 5
+2021-06-24 17:46:29.941 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Enabling Unity systrace
+2021-06-24 17:46:29.943 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect W/onandsandeffec: Accessing hidden method Ljava/lang/invoke/MethodHandles$Lookup;-><init>(Ljava/lang/Class;I)V (greylist, reflection, allowed)
+2021-06-24 17:46:29.947 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.DefaultCompany.ShaderExplosionandsandeffect#10647#256
+2021-06-24 17:46:29.947 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/HwApiCacheMangerEx: need clear apicache,because volumes changed,oldCnt=1 newCnt=1
+2021-06-24 17:46:29.948 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.DefaultCompany.ShaderExplosionandsandeffect#10647#0
+2021-06-24 17:46:29.948 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/HwApiCacheMangerEx: need clear apicache,because volumes changed,oldCnt=1 newCnt=1
+2021-06-24 17:46:29.950 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: [VFS] Mount /data/app/com.DefaultCompany.ShaderExplosionandsandeffect-9t4d45kdTZwFREjbKoAk4w==/base.apk
+2021-06-24 17:46:29.950 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Loading player data from /data/app/com.DefaultCompany.ShaderExplosionandsandeffect-9t4d45kdTZwFREjbKoAk4w==/base.apk/assets/bin/Data/data.unity3d
+2021-06-24 17:46:29.951 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.DefaultCompany.ShaderExplosionandsandeffect#10647#256
+2021-06-24 17:46:29.951 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/HwApiCacheMangerEx: need clear apicache,because volumes changed,oldCnt=1 newCnt=1
+2021-06-24 17:46:29.955 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/Unity: SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 8, Memory = 7593mb
+2021-06-24 17:46:29.955 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/Unity: SystemInfo ARM big.LITTLE configuration: 2 big (mask: 0xc0), 6 little (mask: 0x3f)
+2021-06-24 17:46:29.956 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/Unity: ApplicationInfo com.DefaultCompany.ShaderExplosionandsandeffect version 1.0 build 5a54c276-8160-4c02-ba34-699264f7c9d0
+2021-06-24 17:46:29.956 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/Unity: Built from '2020.3/china_unity/release' branch, Version '2020.3.11f1c1 (77449f27ef9b)', Build type 'Development', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+2021-06-24 17:46:29.959 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.DefaultCompany.ShaderExplosionandsandeffect#10647#0
+2021-06-24 17:46:29.959 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/HwApiCacheMangerEx: need clear apicache,because volumes changed,oldCnt=1 newCnt=1
+2021-06-24 17:46:29.960 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Script Patching: Patch files are not available, '/storage/emulated/0/Android/data/com.DefaultCompany.ShaderExplosionandsandeffect/cache/ScriptOnly/2020.3.11f1c1/il2cpp/patch.config' is missing.
+2021-06-24 17:46:29.961 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Same Unity build, not extracting il2cpp resources.
+2021-06-24 17:46:29.962 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: PlayerConnection initialized from /data/app/com.DefaultCompany.ShaderExplosionandsandeffect-9t4d45kdTZwFREjbKoAk4w==/base.apk/assets/bin/Data (debug = 0)
+2021-06-24 17:46:29.963 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: PlayerConnection initialized network socket : 0.0.0.0 55180
+2021-06-24 17:46:29.963 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: PlayerConnection initialized unix socket : Unity-com.DefaultCompany.ShaderExplosionandsandeffect
+2021-06-24 17:46:29.963 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Multi-casting "[IP] 10.73.114.55 [Port] 55180 [Flags] 2 [Guid] 3076006684 [EditorId] 2038001751 [Version] 1048832 [Id] AndroidPlayer(HUAWEI_VOG-AL10@10.73.114.55) [Debug] 1 [PackageName] AndroidPlayer [ProjectName] Shader-Explosion and sand effect" to [225.0.0.222:54997]...
+2021-06-24 17:46:29.963 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Started listening to [0.0.0.0:55180]
+2021-06-24 17:46:29.963 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Starting managed debugger on port 56684
+2021-06-24 17:46:29.983 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect I/DecorView[]:  old windowMode:1 new windoMode:1
+2021-06-24 17:46:30.064 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: [EGL] Attaching window :0x77ae7dc010
+2021-06-24 17:46:30.064 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: InitializeScriptEngine OK (0x77b4dcefc0)
+2021-06-24 17:46:30.064 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: PlayerConnection already initialized - listening to [0.0.0.0:55180]
+2021-06-24 17:46:30.071 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Loading player data from assets/bin/Data/data.unity3d
+2021-06-24 17:46:30.072 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: PlayerInitEngineNoGraphics OK
+2021-06-24 17:46:30.072 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/Unity: Company Name: DefaultCompany
+2021-06-24 17:46:30.072 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/Unity: Product Name: Shader-Explosion and sand effect
+2021-06-24 17:46:30.072 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: AndroidGraphics::Startup window =  0x77ae7dc010
+2021-06-24 17:46:30.072 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: [EGL] Attaching window :0x77ae7dc010
+2021-06-24 17:46:30.074 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/libEGL: Debug layer list: libVkLayer_GLES_RenderDoc.so
+2021-06-24 17:46:30.074 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/libEGL: Searching /data/user/0/com.DefaultCompany.ShaderExplosionandsandeffect for GLES layers
+2021-06-24 17:46:30.074 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/libEGL: Searching /data/app/org.renderdoc.renderdoccmd.arm64-myiB8EJckwMlmYiMDK9cLA==/lib/arm64 for GLES layers
+2021-06-24 17:46:30.074 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/libEGL: GLES layer found: /data/app/org.renderdoc.renderdoccmd.arm64-myiB8EJckwMlmYiMDK9cLA==/lib/arm64/libVkLayer_GLES_RenderDoc.so
+2021-06-24 17:46:30.079 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000001@ RDOC 002217: [17:46:30]    posix_network.cpp( 422) - Log     - Created and bind socket: 114
+2021-06-24 17:46:30.079 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000002@ RDOC 002217: [17:46:30]             core.cpp( 418) - Log     - Listening for target control on 38920
+2021-06-24 17:46:30.082 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000003@ RDOC 002217: [17:46:30]             core.cpp( 459) - Log     - RenderDoc v1.15 Android 64-bit Release (71b6e2b321fd9d537fd351d6aa019cff01cdc07f) capturing application
+2021-06-24 17:46:30.082 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000004@ RDOC 002217: [17:46:30]         settings.cpp( 460) - Log     - Loading config from /sdcard/Android/data/com.DefaultCompany.ShaderExplosionandsandeffect/files/renderdoc.conf
+2021-06-24 17:46:30.149 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000005@ RDOC 002217: [17:46:30]   posix_libentry.cpp(  58) - Log     - Using delay for debugger 0
+2021-06-24 17:46:30.149 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000006@ RDOC 002217: [17:46:30]   posix_libentry.cpp(  71) - Log     - Loading into com.DefaultCompany.ShaderExplosionandsandeffect
+2021-06-24 17:46:30.166 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000007@ RDOC 002217: [17:46:30]        egl_hooks.cpp( 971) - Log     - EGL_ANDROID_GLES_layers detected, disabling EGL hooks - GLES layering in effect
+2021-06-24 17:46:30.166 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000008@ RDOC 002217: [17:46:30]         gl_hooks.cpp( 258) - Log     - Not registering OpenGL hooks for Android
+2021-06-24 17:46:30.182 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000009@ RDOC 002217: [17:46:30]        egl_hooks.cpp( 971) - Log     - EGL_ANDROID_GLES_layers detected, disabling EGL hooks - GLES layering in effect
+2021-06-24 17:46:30.182 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d454760000000a@ RDOC 002217: [17:46:30]         vk_layer.cpp(  99) - Log     - Registering Vulkan hooks
+2021-06-24 17:46:30.186 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d454760000000b@ RDOC 002217: [17:46:30]     android_hook.cpp( 742) - Log     - Dummy-loaded /data/app/org.renderdoc.renderdoccmd.arm64-myiB8EJckwMlmYiMDK9cLA==/lib/arm64/libVkLayer_GLES_RenderDoc.so with dlopen to prevent library unload
+2021-06-24 17:46:30.186 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d454760000000c@ RDOC 002217: [17:46:30]     android_hook.cpp( 754) - Log     - No library hooks registered, not doing any hooking
+2021-06-24 17:46:30.201 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d454760000000d@ RDOC 002217: [17:46:30]        egl_hooks.cpp(1039) - Log     - Initialising Android GLES layer with ID 0000007738ECF3C0
+2021-06-24 17:46:30.202 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d454760000000e@ RDOC 002217: [17:46:30]        egl_hooks.cpp(1050) - Warning - Couldn't fetch function pointer for eglPostSubBufferNV
+2021-06-24 17:46:30.249 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/FrameFlow: FrameFlowInit app is not supported by frameflow solution
+2021-06-24 17:46:30.249 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/iGraphics: [0020080c] pn: com.DefaultCompany.ShaderExplosionandsandeffect, p: 2217
+2021-06-24 17:46:30.249 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/iGraphics: [0030080c] no spt app: com.DefaultCompany.ShaderExplosionandsandeffect
+2021-06-24 17:46:30.252 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: [EGL] Request: ES 3.2 RGB0 000 0/0
+2021-06-24 17:46:30.252 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: [EGL] Checking ES 3.2 support...
+2021-06-24 17:46:30.252 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d454760000000f@ RDOC 002217: [17:46:30]     android_hook.cpp( 813) - Log     - Not refreshing android hooks with no libraries registered
+2021-06-24 17:46:30.253 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000010@ RDOC 002217: [17:46:30]        gl_driver.cpp(1144) - Log     - Core context 0000007738E44480 created with attribs, sharing with context 0000000000000000
+2021-06-24 17:46:30.253 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000011@ RDOC 002217: [17:46:30]        gl_driver.cpp(1156) - Log     - Created new sharegroup 0000007738F4EA50
+2021-06-24 17:46:30.253 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000012@ RDOC 002217: [17:46:30]             core.cpp(1816) - Log     - Adding OpenGLES device frame capturer for 0x0000007738E44480
+2021-06-24 17:46:30.253 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000013@ RDOC 002217: [17:46:30]        gl_driver.cpp(1031) - Log     - Deleting context 0000007738E44480
+2021-06-24 17:46:30.253 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000014@ RDOC 002217: [17:46:30]        gl_driver.cpp(1055) - Log     - Deleting shader group 0000007738F4EA50
+2021-06-24 17:46:30.254 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: [EGL] ES 3.2 support detected
+2021-06-24 17:46:30.254 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: [EGL] Found: ID[5] ES 3.2 RGB16 565 0/0
+2021-06-24 17:46:30.254 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/FrameFlow: FrameFlowInit app is not supported by frameflow solution
+2021-06-24 17:46:30.254 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: [EGL] Request: ES 3.2 RGB0 000 0/0
+2021-06-24 17:46:30.254 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: [EGL] Found: ID[5] ES 3.2 RGB16 565 0/0
+2021-06-24 17:46:30.254 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/FrameFlow: FrameFlowInit app is not supported by frameflow solution
+2021-06-24 17:46:30.254 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: [EGL] Request: ES 3.0 RGBA32 8888 0/0
+2021-06-24 17:46:30.254 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: [EGL] Found: ID[1] ES 3.0 RGBA32 8888 0/0
+2021-06-24 17:46:30.254 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: ANativeWindow: (720/1560) RequestedResolution: (0/0) RenderingResolution: (0/0) EGLSurface: (720/1560)
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000015@ RDOC 002217: [17:46:30]     android_hook.cpp( 813) - Log     - Not refreshing android hooks with no libraries registered
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000016@ RDOC 002217: [17:46:30]        gl_driver.cpp(1144) - Log     - Core context 0000007738E44500 created with attribs, sharing with context 0000000000000000
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000017@ RDOC 002217: [17:46:30]        gl_driver.cpp(1156) - Log     - Created new sharegroup 0000007738F4EAE0
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000018@ RDOC 002217: [17:46:30]             core.cpp(1816) - Log     - Adding OpenGLES device frame capturer for 0x0000007738E44500
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000019@ RDOC 002217: [17:46:30]        gl_common.cpp( 422) - Log     - Checking enabled extensions, running as OpenGL ES 3.2
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d454760000001a@ RDOC 002217: [17:46:30]      gl_emulated.cpp(3379) - Log     - Emulating glTransformFeedbackBufferBase
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d454760000001b@ RDOC 002217: [17:46:30]      gl_emulated.cpp(3380) - Log     - Emulating glTransformFeedbackBufferRange
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d454760000001c@ RDOC 002217: [17:46:30]      gl_emulated.cpp(3381) - Log     - Emulating glClearNamedFramebufferiv
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d454760000001d@ RDOC 002217: [17:46:30]      gl_emulated.cpp(3382) - Log     - Emulating glClearNamedFramebufferuiv
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d454760000001e@ RDOC 002217: [17:46:30]      gl_emulated.cpp(3383) - Log     - Emulating glClearNamedFramebufferfv
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d454760000001f@ RDOC 002217: [17:46:30]      gl_emulated.cpp(3384) - Log     - Emulating glClearNamedFramebufferfi
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000020@ RDOC 002217: [17:46:30]      gl_emulated.cpp(3385) - Log     - Emulating glBlitNamedFramebuffer
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000021@ RDOC 002217: [17:46:30]      gl_emulated.cpp(3386) - Log     - Emulating glVertexArrayElementBuffer
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000022@ RDOC 002217: [17:46:30]      gl_emulated.cpp(3387) - Log     - Emulating glVertexArrayVertexBuffers
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000023@ RDOC 002217: [17:46:30]      gl_emulated.cpp(3434) - Log     - Emulating ARB_clear_buffer_object
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000024@ RDOC 002217: [17:46:30]      gl_emulated.cpp(3449) - Log     - Emulating ARB_internalformat_query2
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000025@ RDOC 002217: [17:46:30]      gl_emulated.cpp(3590) - Log     - Emulating GLES 3.x functions
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000026@ RDOC 002217: [17:46:30]      gl_emulated.cpp(3635) - Log     - Emulating EXT_direct_state_access
+2021-06-24 17:46:30.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000027@ RDOC 002217: [17:46:30]      gl_emulated.cpp(3722) - Log     - Emulating ARB_direct_state_access
+2021-06-24 17:46:30.257 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000028@ RDOC 002217: [17:46:30]        gl_driver.cpp(1389) - Log     - Activating new GL context: ARM / Mali-G76 / OpenGL ES 3.2 v1.r18p0-01rel0.c90192f4999804ad7c43cfa5f166915a
+2021-06-24 17:46:30.257 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d4547600000029@ RDOC 002217: [17:46:30]        gl_common.cpp( 479) - Log     - Vendor checks for 32 (ARM / Mali-G76 / OpenGL ES 3.2 v1.r18p0-01rel0.c90192f4999804ad7c43cfa5f166915a)
+2021-06-24 17:46:30.257 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d454760000002a@ RDOC 002217: [17:46:30]        gl_common.cpp( 813) - Warning - Reading from the depth buffer using glReadPixels is not supported (GL_NV_read_depth)
+2021-06-24 17:46:30.257 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d454760000002b@ RDOC 002217: [17:46:30]        gl_common.cpp( 817) - Warning - Reading from the stencil buffer using glReadPixels is not supported (GL_NV_read_stencil)
+2021-06-24 17:46:30.257 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d454760000002c@ RDOC 002217: [17:46:30]        gl_common.cpp( 821) - Warning - Reading from the packed depth-stencil buffers using glReadPixels is not supported (GL_NV_read_depth_stencil)
+2021-06-24 17:46:30.260 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Renderer: Mali-G76
+2021-06-24 17:46:30.260 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Vendor:   ARM
+2021-06-24 17:46:30.260 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Version:  OpenGL ES 3.2 v1.r18p0-01rel0.c90192f4999804ad7c43cfa5f166915a
+2021-06-24 17:46:30.260 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: GLES:     3
+2021-06-24 17:46:30.260 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity:  GL_ARM_rgba8 GL_EXT_blend_minmax GL_EXT_buffer_storage GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_copy_image GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_geometry_shader GL_EXT_gpu_shader5 GL_EXT_multisampled_render_to_texture GL_EXT_multisampled_render_to_texture2 GL_EXT_occlusion_query_boolean GL_EXT_primitive_bounding_box GL_EXT_robustness GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_shader_io_blocks GL_EXT_shader_non_constant_global_initializers GL_EXT_shadow_samplers GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_compression_astc_decode_mode GL_EXT_texture_cube_map_array GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_type_2_10_10_10_REV GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advance
+2021-06-24 17:46:30.260 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: d_coherent GL_KHR_debug GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_OES_compressed_ETC1_RGB8_texture GL_OES_copy_image GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_geometry_shader GL_OES_gpu_shader5 GL_OES_mapbuffer GL_OES_packed_depth_stencil GL_OES_primitive_bounding_box GL_OES_rgb8_rgba8 GL_OES_sample_shading GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_tessellation_shader GL_OES_texture_3D GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_compression_astc GL_OES_texture_cube_map_array GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float GL_OVR_multiview GL_OVR_multiview2 GL_OVR_multiview_multisampled_render_to_texture GL_EXT
+2021-06-24 17:46:30.260 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: _debug_tool GL_EXT_debug_label
+2021-06-24 17:46:30.260 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: OPENGL LOG: Creating OpenGL ES 3.2 graphics device ; Context level  <OpenGL ES 3.2> ; Context handle 954483968
+2021-06-24 17:46:30.261 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: [EGL] Attaching window :0x77ae7dc010
+2021-06-24 17:46:30.265 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Requested framebuffer: resolution[720x1560], rgba[8/8/8/8], depth+stencil[on], samples[1]
+2021-06-24 17:46:30.265 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Created framebuffer: resolution[720x1560], rgba[8/8/8/8], depth+stencil[24/8], samples[0] 
+2021-06-24 17:46:30.265 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: [EGL] Attaching window :0x77ae7dc010
+2021-06-24 17:46:30.265 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Initialize engine version: 2020.3.11f1c1 (77449f27ef9b)
+2021-06-24 17:46:30.284 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+2021-06-24 17:46:30.290 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect W/AudioTrack: createTrack_l(0): AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 0 -> 1924
+2021-06-24 17:46:30.340 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: PlayerInitEngineGraphics OK
+2021-06-24 17:46:30.341 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Found 23 native sensors
+2021-06-24 17:46:30.342 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Sensor :        Accelerometer ( 1) ; 0.000010 / 0.00s ; accelerometer-icm20690 / invensense 
+2021-06-24 17:46:30.343 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Sensor :        Accelerometer ( 1) ; 0.000010 / 0.00s ; accelerometer-icm20690 / invensense 
+2021-06-24 17:46:30.346 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect V/AudioManager: getStreamVolume streamType: 3 volume: 0
+2021-06-24 17:46:30.346 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: SetWindow 0 0x77ae7dc010
+2021-06-24 17:46:30.346 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: [EGL] Attaching window :0x77ae7dc010
+2021-06-24 17:46:30.351 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect V/MediaRouter: Audio routes updated: AudioRoutesInfo{ type=SPEAKER, bluetoothName=HUAWEI FreeBuds 4 }, a2dp=true
+2021-06-24 17:46:30.351 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect V/MediaRouter: Selecting route: RouteInfo{ name=HUAWEI FreeBuds 4, description=蓝牙音频, status=null, category=RouteCategory{ name=系统 types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO , presentationDisplay=null }
+2021-06-24 17:46:30.400 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/renderdoc: @60d454760000002d@ RDOC 002217: [17:46:30]             core.cpp(1849) - Log     - Adding OpenGLES frame capturer for 0x0000007738E44500 / 0x00000077AE7DC010
+2021-06-24 17:46:30.671 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 14 lines
+2021-06-24 17:46:30.869 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:30.968 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:31.017 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:31.082 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:31.228 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:31.327 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:31.475 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:31.524 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:31.721 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 10 lines
+2021-06-24 17:46:31.867 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:31.966 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:32.047 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:32.227 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:46:32.275 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:32.356 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:32.392 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: UnloadTime: 0.790104 ms
+2021-06-24 17:46:32.411 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.DefaultCompany.ShaderExplosionandsandeffect#10647#256
+2021-06-24 17:46:32.411 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/HwApiCacheMangerEx: need clear apicache,because volumes changed,oldCnt=1 newCnt=1
+2021-06-24 17:46:32.413 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Sensor :        Accelerometer ( 1) ; 0.000010 / 0.00s ; accelerometer-icm20690 / invensense 
+2021-06-24 17:46:32.425 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect V/AudioManager: getStreamVolume streamType: 3 volume: 0
+2021-06-24 17:46:32.425 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Choreographer available: Enabling VSYNC timing
+2021-06-24 17:46:32.445 2217-2499/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity: Setting up 1 worker threads for Enlighten.
+2021-06-24 17:46:32.446 2217-2503/com.DefaultCompany.ShaderExplosionandsandeffect D/Unity:   Thread -> id: 76039f5d50 -> priority: 1 
+2021-06-24 17:46:32.518 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:32.642 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:32.824 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:32.945 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:33.027 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:33.223 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:46:33.272 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:33.338 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:33.468 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:33.599 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:46:33.713 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:46:33.778 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:33.877 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:33.959 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:34.154 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:46:34.220 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:34.270 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:34.415 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:34.530 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:34.628 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:34.696 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:34.776 2217-2217/com.DefaultCompany.ShaderExplosionandsandeffect I/AwareBitmapCacher: init lrucache size: 2097152 pid=2217
+2021-06-24 17:46:34.825 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:34.891 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:35.103 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:35.218 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:46:35.282 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:35.332 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:35.421 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:35.566 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:35.647 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:35.843 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 9 lines
+2021-06-24 17:46:35.973 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:46:36.138 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:46:36.286 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:36.399 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:36.547 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:36.595 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:36.643 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:36.774 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:36.971 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 10 lines
+2021-06-24 17:46:37.038 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:37.151 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:37.216 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:37.298 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:37.346 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:37.412 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:37.528 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:46:37.592 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:37.723 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:37.887 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 8 lines
+2021-06-24 17:46:37.951 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:38.065 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:38.196 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:38.409 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:46:38.458 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:38.572 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:46:38.654 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:38.703 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:38.851 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:46:38.932 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:38.981 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:39.161 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:39.324 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:39.406 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:39.586 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 9 lines
+2021-06-24 17:46:39.651 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:39.782 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:46:39.864 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:39.913 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:39.962 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:40.108 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:46:40.338 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:40.420 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:40.534 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:40.665 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:40.812 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:46:41.025 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:41.091 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:41.189 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:41.419 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:41.467 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:41.548 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:41.647 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:41.843 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 10 lines
+2021-06-24 17:46:41.940 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:42.137 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:46:42.481 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:42.594 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:42.677 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:43.070 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:43.134 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:43.232 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:43.477 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:43.576 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:43.706 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:43.836 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:43.901 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:44.097 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:44.163 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:44.213 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:44.278 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:44.360 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:44.409 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:44.573 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:44.655 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:44.818 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:45.128 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:45.784 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:45.850 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:45.963 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:46:46.013 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:46.113 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:46.234 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:46.364 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:46.413 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:46.495 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:46.724 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 10 lines
+2021-06-24 17:46:46.773 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:46.904 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:46:46.986 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:47.083 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:47.167 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:47.283 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:47.331 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:47.381 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:47.477 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:47.609 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:46:47.658 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:47.755 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:47.838 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:48.034 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 10 lines
+2021-06-24 17:46:48.083 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:48.214 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:46:48.296 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:48.411 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:48.510 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:48.673 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:48.738 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:48.787 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:48.968 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 9 lines
+2021-06-24 17:46:49.048 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:49.228 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:49.326 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:49.397 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:49.522 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:46:49.588 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:49.703 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:46:49.867 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:49.981 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:50.047 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:50.194 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:50.277 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:50.341 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:50.461 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:50.542 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:50.608 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:50.838 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:46:50.903 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:51.001 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:51.148 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:46:51.327 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:51.590 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 9 lines
+2021-06-24 17:46:51.672 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:51.787 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:51.836 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:51.966 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:46:52.014 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:52.163 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:46:52.229 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:52.343 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:52.391 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:52.522 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:46:52.652 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:46:52.899 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 8 lines
+2021-06-24 17:46:52.981 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:53.094 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:53.242 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:46:53.322 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:53.405 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:53.634 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 8 lines
+2021-06-24 17:46:53.749 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:53.800 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:53.845 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:53.961 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:54.026 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:54.223 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:46:54.304 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:54.354 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:54.518 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:54.600 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:54.698 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:54.778 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:54.827 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:54.942 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:46:55.089 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:55.237 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:55.334 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:55.417 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:55.465 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:55.530 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:55.612 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:55.711 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:55.858 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:46:55.989 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:56.087 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:56.152 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:56.235 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:56.414 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:46:56.463 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:56.595 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:56.659 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:56.741 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:56.840 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:56.905 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:56.987 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:57.313 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:57.412 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:57.511 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:57.559 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:57.772 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:46:57.888 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:46:57.953 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:58.149 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 9 lines
+2021-06-24 17:46:58.214 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:58.328 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:46:58.526 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:46:58.722 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 9 lines
+2021-06-24 17:46:58.869 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:46:59.000 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:46:59.048 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:59.097 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:59.146 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:59.195 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:59.245 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:59.410 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:46:59.474 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:59.524 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:59.573 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:59.622 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:46:59.834 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:46:59.950 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:00.129 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:00.179 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:00.309 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:00.505 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:00.571 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:00.685 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:00.784 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:00.833 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:00.964 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:47:01.014 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:01.095 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:01.161 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:01.242 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:01.340 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:01.406 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:01.488 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:01.537 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:01.605 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:01.717 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:01.816 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:01.914 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:02.011 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:02.093 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:02.143 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:02.241 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:02.420 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:47:02.471 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:02.634 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:47:02.700 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:02.797 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:02.846 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:03.010 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 8 lines
+2021-06-24 17:47:03.109 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:03.174 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:03.222 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:03.337 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:03.517 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:03.599 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:03.664 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:03.779 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:03.960 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:47:04.057 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:04.156 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:04.221 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:04.336 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:04.417 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:04.500 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:04.679 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:04.810 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:04.858 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:04.910 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:04.989 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:05.072 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:05.252 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 8 lines
+2021-06-24 17:47:05.399 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:05.531 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:05.661 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:05.841 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:06.037 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 10 lines
+2021-06-24 17:47:06.216 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 8 lines
+2021-06-24 17:47:06.463 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:06.561 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:06.724 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:47:06.970 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 10 lines
+2021-06-24 17:47:07.019 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:07.149 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:07.247 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:07.346 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:07.411 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:07.526 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:07.689 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 8 lines
+2021-06-24 17:47:07.902 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:47:08.016 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:08.098 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:08.197 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:08.246 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:08.344 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:08.410 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:08.475 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:08.655 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 9 lines
+2021-06-24 17:47:08.785 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:08.852 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:09.015 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 8 lines
+2021-06-24 17:47:09.196 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:47:09.260 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:09.326 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:09.407 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:09.457 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:09.587 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:47:09.653 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:09.750 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:09.963 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:10.127 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:47:10.258 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:10.307 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:10.520 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:10.634 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:10.716 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:10.832 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:10.879 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:10.962 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:11.027 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:11.093 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:11.191 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:11.256 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:11.421 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:47:11.470 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:11.568 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:11.617 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:11.748 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:11.846 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:11.944 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:12.026 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:12.075 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:12.190 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:12.337 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:12.599 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 9 lines
+2021-06-24 17:47:12.697 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:12.779 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:12.877 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:12.925 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:12.975 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:13.024 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:13.106 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:13.253 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:13.335 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:13.417 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:13.531 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:13.579 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:13.645 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:13.710 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:13.826 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:13.907 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:14.022 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:14.235 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:47:14.414 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:14.463 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:14.562 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:14.613 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:14.660 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:14.709 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:14.840 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:14.889 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:15.036 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:15.085 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:15.217 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:47:15.265 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:15.396 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:15.543 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:47:15.592 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:15.740 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:47:15.870 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:15.952 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:16.050 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:16.149 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:16.263 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:16.345 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:16.497 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:16.622 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:16.673 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:16.770 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:17.261 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:17.408 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:47:17.588 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:17.654 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:17.784 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:17.997 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:47:18.162 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:47:18.326 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:18.407 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:18.456 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:18.588 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:18.718 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:18.783 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:18.884 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:18.964 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:19.011 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:19.143 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:19.274 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:19.340 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:19.405 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:19.478 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:19.650 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:19.716 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:19.912 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:20.011 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:20.093 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:20.272 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:47:20.337 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:20.419 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:20.648 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:47:20.714 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:20.762 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:20.958 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:21.024 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:21.171 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:21.270 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:21.336 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:21.597 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:21.745 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 7 lines
+2021-06-24 17:47:21.973 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 10 lines
+2021-06-24 17:47:22.154 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:22.268 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:22.349 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:22.414 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:22.481 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:22.529 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:22.660 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:47:22.724 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:22.905 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 9 lines
+2021-06-24 17:47:23.035 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:23.199 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:23.281 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:23.395 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:23.461 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:23.657 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 8 lines
+2021-06-24 17:47:23.706 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:23.821 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:23.952 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:24.131 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:24.214 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:24.279 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:24.492 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:24.558 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:24.639 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:24.688 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:24.966 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 9 lines
+2021-06-24 17:47:25.130 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:25.277 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 5 lines
+2021-06-24 17:47:25.326 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:25.411 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:25.508 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 4 lines
+2021-06-24 17:47:25.606 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:25.672 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:25.721 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:25.884 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 8 lines
+2021-06-24 17:47:25.998 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:26.047 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:26.162 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:26.277 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:26.325 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:26.408 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 3 lines
+2021-06-24 17:47:26.472 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:26.652 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 9 lines
+2021-06-24 17:47:26.832 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 9 lines
+2021-06-24 17:47:26.980 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:47:27.029 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line
+2021-06-24 17:47:27.209 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 6 lines
+2021-06-24 17:47:27.275 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 2 lines
+2021-06-24 17:47:27.405 2217-2354/com.DefaultCompany.ShaderExplosionandsandeffect I/chatty: uid=10647(com.DefaultCompany.ShaderExplosionandsandeffect) UnityMain identical 1 line

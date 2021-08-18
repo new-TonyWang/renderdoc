@@ -70,7 +70,7 @@ void library_loaded()
 
     RDCLOG("Loading into %s", curfile.c_str());
 
-    LibraryHooks::RegisterHooks();
+    LibraryHooks::RegisterHooks();//注册hook
 
     // we have a short sleep here to allow target control to connect, since unlike windows we can't
     // suspend the process during startup.
@@ -81,7 +81,7 @@ void library_loaded()
 // wrap in a struct to enforce ordering. This file is
 // linked last, so all other global struct constructors
 // should run first
-struct init
+struct init//全局变量
 {
   init() { library_loaded(); }
 } do_init;

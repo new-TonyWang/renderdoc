@@ -7,6 +7,14 @@ set(RDOC_INCLUDES
     PRIVATE ${RDOC_SOURCE_DIR}/3rdparty)
 set(RDOC_LIBRARIES)
 
+
+set(LLVM_DIR "~/aarch64-llvm-install/lib/cmake/llvm")
+set(ANDROID ON)
+set(USE_INTERCEPTOR_LIB ON)
+if (ANDROID)
+message("allow android")
+endif()
+set(ANDROID_ABI "arm64-v8a")
 option(ENABLE_DLSYM_HOOKING "Enable dlsym() hooking via glibc internals" OFF)
 
 if(ENABLE_DLSYM_HOOKING)
@@ -64,18 +72,18 @@ elseif(UNIX)
             PRIVATE ${X11_X11_LIB})
     endif()
 
-    if(ENABLE_XCB)
-        # This should be fixed and moved to FindXCB.cmake
-        pkg_check_modules(PC_XCB REQUIRED xcb xcb-keysyms)
-        set(XCB_INCLUDE_DIRS)
-        set(XCB_LIBRARIES xcb xcb-keysyms)
+    # if(ENABLE_XCB)
+    #     # This should be fixed and moved to FindXCB.cmake
+    #     pkg_check_modules(PC_XCB REQUIRED xcb xcb-keysyms)
+    #     set(XCB_INCLUDE_DIRS)
+    #     set(XCB_LIBRARIES xcb xcb-keysyms)
 
-        list(APPEND RDOC_INCLUDES
-            PRIVATE ${XCB_INCLUDE_DIRS})
+    #     list(APPEND RDOC_INCLUDES
+    #         PRIVATE ${XCB_INCLUDE_DIRS})
 
-        list(APPEND RDOC_LIBRARIES
-            PRIVATE -l${XCB_LIBRARIES})
-    endif()
+    #     list(APPEND RDOC_LIBRARIES
+    #         PRIVATE -l${XCB_LIBRARIES})
+    # endif()
 
     if(ENABLE_WAYLAND)
         pkg_check_modules(PKG_WAYLAND QUIET wayland-client)
@@ -438,11 +446,12 @@ set(data
 
 set(data_objects)
 
+
 if(UNIX)
     # If we're cross-compiling, include-bin will get built for the target and we
     # then can't execute it. Instead, we force calling c++ (which we can safely
     # assume is present) directly to build the binary
-
+    message(UNIX=="true")
     if(CMAKE_CROSSCOMPILING)
         set(HOST_NATIVE_CPP_COMPILER c++ CACHE STRING "Command to run to compile a .cpp into an executable. Default is just c++")
 
@@ -495,21 +504,22 @@ if(ENABLE_GL OR ENABLE_GLES OR ENABLE_VULKAN)
     list(APPEND renderdoc_objects $<TARGET_OBJECTS:rdoc_spirv>)
 endif()
 
-option(USE_INTERCEPTOR_LIB OFF)
+#option(USE_INTERCEPTOR_LIB ON)
 
 # on Android, pull in interceptor-lib only if we have LLVM available
 if(ANDROID AND USE_INTERCEPTOR_LIB )
     find_package(LLVM CONFIG)
-
+    
     if(NOT LLVM_FOUND)
         message(FATAL_ERROR "LLVM not found - interceptor-lib requires LLVM 4.0 available.")
-    elseif(${LLVM_PACKAGE_VERSION} VERSION_LESS "4.0.0" OR ${LLVM_PACKAGE_VERSION} VERSION_GREATER "4.0.1")
-        message(FATAL_ERROR "LLVM ${LLVM_PACKAGE_VERSION} found - we require precisely 4.0.")
+    # elseif(${LLVM_PACKAGE_VERSION} VERSION_LESS "4.0.0" OR ${LLVM_PACKAGE_VERSION} VERSION_GREATER "4.0.1")
+    #     message(FATAL_ERROR "LLVM ${LLVM_PACKAGE_VERSION} found - we require precisely 4.0.")
     else()
         message(STATUS "LLVM ${LLVM_PACKAGE_VERSION} found - enabling android hooking using interceptor-lib.")
         add_subdirectory(3rdparty/interceptor-lib)
         list(APPEND renderdoc_objects $<TARGET_OBJECTS:interceptor_lib>)
         link_directories(${LLVM_DIR}/../..)
+               
         set(RDOC_DEFINITIONS ${RDOC_DEFINITIONS} PRIVATE -DRENDERDOC_HAVE_INTERCEPTOR_LIB)
 
         foreach(lib ${interceptor_libs})
@@ -604,7 +614,7 @@ if(APPLE)
     set_target_properties(renderdoc PROPERTIES BUILD_WITH_INSTALL_NAME_DIR TRUE)
 endif()
 
-if(ANDROID)
+if(ANDROID)#重点
     set_target_properties(renderdoc PROPERTIES LINK_FLAGS "-Wl,--undefined,force_include_libentry -Wl,--build-id")
     # rename output library
     set_target_properties(renderdoc PROPERTIES OUTPUT_NAME "VkLayer_GLES_RenderDoc")

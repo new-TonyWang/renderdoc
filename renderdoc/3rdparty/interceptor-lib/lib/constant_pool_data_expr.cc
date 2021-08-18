@@ -59,7 +59,7 @@ bool ConstantPoolDataExpr::allocate(llvm::raw_ostream &data) {
   if (!expr_->evaluateAsRelocatable(val, nullptr, nullptr)) return false;
 
   base_location_ += data.tell();
-  while (base_location_ % alignment_ != 0) {
+  while (base_location_ % alignment_ != 0) {//开始地址必须要是数据长度的整数倍,不足的话补0（x86不定长指令?）
     data.write((char)0);
     base_location_++;
   }
@@ -96,5 +96,5 @@ bool ConstantPoolDataExpr::allocate(llvm::raw_ostream &data) {
 }
 
 void ConstantPoolDataExpr::setBaseLocation(uintptr_t location) {
-  base_location_ += location;
+  base_location_ += location;//用于记录带上偏移量的原函数原函数
 }

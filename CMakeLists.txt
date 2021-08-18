@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 2.8.12)
 
+set(CMAKE_CXX_COMPILER /mnt/f/Tools/clang/llvm-project/build_ubuntu/bin/clang++)
+
 if(APPLE)
   SET(CMAKE_OSX_ARCHITECTURES "x86_64;arm64" CACHE STRING "Build architectures for Mac OS X" FORCE)
   SET(CMAKE_OSX_DEPLOYMENT_TARGET "10.15" CACHE STRING "Minimum SDK for Mac OS X" FORCE)
@@ -8,6 +10,9 @@ endif()
 
 # Configure some stuff that needs to be set really early
 if(BUILD_ANDROID)
+    set(ENV{JAVA_HOME} /usr/lib/jvm/jdk-14.0.2)
+    set(ENV{ANDROID_HOME} /home/tony/Android/Sdk)
+    set(ENV{ANDROID_NDK}  /mnt/d/android/sdk/ndk/21.3.6528147)
     if(NOT DEFINED ENV{JAVA_HOME})
         message(FATAL_ERROR "JAVA_HOME environment variable must be defined for Android build")
     endif()
@@ -61,7 +66,7 @@ if(BUILD_ANDROID)
 
     # Set default API level to 21 if not configured explicitly
     if(NOT ANDROID_PLATFORM)
-        set(ANDROID_PLATFORM "android-21")
+        set(ANDROID_PLATFORM "android-29")
     endif()
     
     # default to libc++_static as the other options can cause crashes
@@ -74,7 +79,7 @@ if(BUILD_ANDROID)
 
     # Default to arm32 if nothing is specified on the command line.
     # Options are {armeabi-v7a,arm64-v8a}
-    set(ANDROID_ABI "armeabi-v7a" CACHE STRING "The Android ABI to build for")
+    set(ANDROID_ABI "arm64-v8a" CACHE STRING "The Android ABI to build for")
 endif()
 
 # disallow in-source builds because we have a top-level wrapper Makefile
@@ -346,7 +351,7 @@ if(STRIP_ANDROID_LIBRARY AND BUILD_ANDROID AND RELEASE_MODE)
 endif()
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fno-strict-aliasing")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -fno-strict-aliasing")
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fvisibility=hidden -fvisibility-inlines-hidden")
     if(ENABLE_GGP)
         set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -gline-tables-only -fno-omit-frame-pointer")

@@ -1349,7 +1349,7 @@ ExecuteResult AndroidRemoteServer::ExecuteAndInject(const rdcstr &packageAndActi
 
       // start the activity in this package with debugging enabled and force-stop after starting
       Android::adbExecCommand(
-          m_deviceID, StringFormat::Fmt("shell am start -S -n %s/%s %s", packageName.c_str(),
+          m_deviceID, StringFormat::Fmt("shell am sart -S -n %s/%s %s", packageName.c_str(),
                                         activityName.c_str(), intentArgs.c_str()));
 
       // don't connect JDWP

@@ -83,7 +83,7 @@ if(ANDROID)
     # then invoke FindJava.cmake which will search just the PATH, then re-set it.
     set(SAVE_JAVA_HOME $ENV{JAVA_HOME})
 
-    set(ENV{JAVA_HOME} "")
+    #set(ENV{JAVA_HOME} "")
     find_package(Java REQUIRED)
     set(ENV{JAVA_HOME} ${SAVE_JAVA_HOME})
 

@@ -12,9 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+#include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
 include_directories(${LLVM_INCLUDE_DIRS})
+
 add_definitions(${LLVM_DEFINITIONS})
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-rtti")
@@ -28,6 +29,7 @@ set(sources
     linker.cc
     memory_manager.cc
     target.cc)
+
 
 set(interceptor_arch_libs)
 
@@ -62,5 +64,10 @@ llvm_map_components_to_libnames(interceptor_general_libs
 set(interceptor_libs z ${interceptor_arch_libs} ${interceptor_general_libs} PARENT_SCOPE)
 
 add_library(interceptor_lib OBJECT
-    ${sources})
+    ${sources}
+    )
+
+target_include_directories(interceptor_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+
+# install(DIRECTORY ${LLVM_INCLUDE_DIRS}  DESTINATION "include" FILES_MATCHING PATTERN "*.h")
 

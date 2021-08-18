@@ -452,7 +452,7 @@ HOOK_EXPORT EGLBoolean EGLAPIENTRY eglMakeCurrent_renderdoc_hooked(EGLDisplay di
   {
     SCOPED_LOCK(glLock);
 
-    SetDriverForHooks(&eglhook.driver);
+    SetDriverForHooks(&eglhook.driver);//设置 hook的驱动（和平台相关）
 
     if(ctx && eglhook.contexts.find(ctx) == eglhook.contexts.end())
     {
@@ -491,7 +491,6 @@ HOOK_EXPORT EGLBoolean EGLAPIENTRY eglMakeCurrent_renderdoc_hooked(EGLDisplay di
 
     eglhook.RefreshWindowParameters(data);
   }
-
   return ret;
 }
 

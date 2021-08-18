@@ -21,29 +21,30 @@ using namespace interceptor;
 CodeGenerator::CodeGenerator(const llvm::Triple &triple, size_t start_alignment)
     : start_alignment_(start_alignment), triple_(triple), code_stream_(code_) {
   // Set the start alignment of the stream to match with the specified value
-  for (size_t i = 0; i < start_alignment_; ++i) code_stream_.write((char)0);
+  for (size_t i = 0; i < start_alignment_; ++i) code_stream_.write((char)0);//将流中的位置和函数地址对应起来
 }
 
 CodeGenerator *CodeGenerator::Create(const llvm::Triple &triple,
                                      size_t start_alignment) {
   std::unique_ptr<CodeGenerator> codegen(
       new CodeGenerator(triple, start_alignment));
-  if (codegen->Initialize()) return codegen.release();
+  if (codegen->Initialize()) return codegen.release();//release是把自己指向的对象让出来给别人
   return nullptr;
 }
 
 void CodeGenerator::AddInstruction(const llvm::MCInst &inst) {
   size_t offset = code_.size();
   llvm::SmallVector<llvm::MCFixup, 4> new_fixups;
-  codegen_->encodeInstruction(inst, code_stream_, new_fixups, *sti_);
+  codegen_->encodeInstruction(inst, code_stream_, new_fixups, *sti_);//将inst写入code_stream(二进制)，并在new_fixups中加入一项
+
 
   // We have to offset the fixups with the offset of the generated instruction
   // in the data stream because encodeInstruction emits them as if it is
   // writing the new instructions from the beginning of the stream.
   for (llvm::MCFixup &fixup : new_fixups)
-    fixup.setOffset(fixup.getOffset() + offset);
+    fixup.setOffset(fixup.getOffset() + offset);//重写offset，因为fixup的初始offset是0
 
-  fixups_.insert(fixups_.end(), new_fixups.begin(), new_fixups.end());
+  fixups_.insert(fixups_.end(), new_fixups.begin(), new_fixups.end());//将此处的new_fixups加入全局的fixup_,每一个都是一条完整的指令
 }
 
 bool CodeGenerator::Initialize() {
@@ -80,7 +81,10 @@ bool CodeGenerator::Initialize() {
 
   return true;
 }
-
+/**
+ * 返回的是插入指令在内存中的布局大小(不包含最初的alignment_)
+ * @return
+ */
 size_t CodeGenerator::LayoutCode() {
   for (const ConstantPoolDataExpr *pool : const_pool_exprs_)
     const_cast<ConstantPoolDataExpr *>(pool)->allocate(code_stream_);
@@ -89,7 +93,8 @@ size_t CodeGenerator::LayoutCode() {
 
 Error CodeGenerator::LinkCode(uintptr_t location) {
   for (const ConstantPoolDataExpr *pool : const_pool_exprs_)
-    const_cast<ConstantPoolDataExpr *>(pool)->setBaseLocation(location);
+    const_cast<ConstantPoolDataExpr *>(pool)->setBaseLocation(location);//总共的长度是内存中源函数地址+跳板大小
+
 
   for (const llvm::MCFixup &fixup : fixups_) {
     const llvm::MCExpr *expr = fixup.getValue();

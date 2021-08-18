@@ -222,7 +222,7 @@ Error InterceptorImpl::GetTrampolineSize(const TrampolineConfig &config,
 Error InterceptorImpl::InstallTrampoline(const TrampolineConfig &config,
                                          void *old_function,
                                          void *new_function) {
-  size_t initial_alignment = GetCodeAligment(target_.get(), old_function);
+  size_t initial_alignment = GetCodeAligment(target_.get(), old_function);//获得老函数的地址
   std::unique_ptr<CodeGenerator> codegen(
       target_->GetCodeGenerator(old_function, initial_alignment));
   if (!codegen) return Error("Failed to create a code generator!");
@@ -264,16 +264,17 @@ Error InterceptorImpl::RewriteInstructions(
   while (offset < rewrite_size && !reached_end_of_function) {
     llvm::MCInst inst;
     uint64_t inst_size = 0;
-    if (!disassembler->GetInstruction(func_addr, offset, inst, inst_size))
+    if (!disassembler->GetInstruction(func_addr, offset, inst, inst_size))//得到反二进制的代码
       return Error("Failed to disassemble instruction at %p + %zd", func_addr,
                    offset);
 
-    Error error = target_->RewriteInstruction(inst, *codegen, func_addr, offset,
+    Error error = target_->RewriteInstruction(inst, *codegen, func_addr, offset,//把得到的反二进制的代码写入codegen
                                               reached_end_of_function);
     if (error.Fail()) return error;
 
     offset += inst_size;
   }
+  
 
   if (offset < rewrite_size)
     return Error(
@@ -283,7 +284,7 @@ Error InterceptorImpl::RewriteInstructions(
   uint8_t *target_addr = static_cast<uint8_t *>(old_function) + offset;
   TrampolineConfig full_config = target_->GetFullTrampolineConfig();
   Error error =
-      target_->EmitTrampoline(full_config, *codegen, nullptr, target_addr);
+      target_->EmitTrampoline(full_config, *codegen, nullptr, target_addr);//向codegen中输出汇编
   if (error.Fail()) return error;
 
   return Error();
@@ -313,7 +314,7 @@ Error InterceptorImpl::CreateCompensationFunction(void *old_function,
 }
 
 Error InterceptorImpl::InterceptFunction(void *old_function, void *new_function,
-                                         void **callback_function) {5
+                                         void **callback_function) {
   if (!callback_function) {
     // TODO: Verify that the function is long enough for placing a trampoline
     //       inside it. If it isn't then currently we are overwriting the
@@ -321,8 +322,8 @@ Error InterceptorImpl::InterceptFunction(void *old_function, void *new_function,
 
     // We don't have to set up a callback function so installing a trampoline
     // without generating compensation instructions is sufficient.
-    //运行到此处的一定是callback_function==NULL也就是说 *trampoline==NULL
-    TrampolineConfig full_config = target_->GetFullTrampolineConfig()
+    
+    TrampolineConfig full_config = target_->GetFullTrampolineConfig();
     return InstallTrampoline(full_config, old_function, new_function);
   }
 
@@ -343,7 +344,7 @@ Error InterceptorImpl::InterceptFunction(void *old_function, void *new_function,
                                 trampoline_size);
       if (error.Fail()) return error;
 
-      error = CreateCompensationFunction(old_function, trampoline_size,
+      error = CreateCompensationFunction(old_function, trampoline_size,//创建
                                          callback_function);
       if (error.Fail()) return error;
 

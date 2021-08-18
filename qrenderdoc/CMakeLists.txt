@@ -28,7 +28,7 @@ execute_process(
 if (QT_VERSION VERSION_GREATER 5.5.999)
     message(STATUS "Building using Qt ${QT_VERSION}")
 else()
-    message(FATAL_ERROR "${QMAKE_QT5_COMMAND} -query QT_VERSION returned: \"${QT_VERSION}\". Error output was: \"${QT_VERSION_STDERR}\". We require Qt >= 5.6 and for the qmake executable to run Qt5. Check your distribution for how to configure Qt5, you may need to set the QT_SELECT environment variable or customise the cmake variable QMAKE_QT5_COMMAND to qmake-qt5")
+    message(STATUS "${QMAKE_QT5_COMMAND} -query QT_VERSION returned: \"${QT_VERSION}\". Error output was: \"${QT_VERSION_STDERR}\". We require Qt >= 5.6 and for the qmake executable to run Qt5. Check your distribution for how to configure Qt5, you may need to set the QT_SELECT environment variable or customise the cmake variable QMAKE_QT5_COMMAND to qmake-qt5")
 endif()
 
 endif() # if(ENABLE_QRENDERDOC)
@@ -108,7 +108,7 @@ endif()
 include(ExternalProject)
 
 # Need bison for swig
-find_package(BISON)
+#find_package(BISON)
 
 set(SWIG_CONFIGURE_CC ${CMAKE_C_COMPILER})
 set(SWIG_CONFIGURE_CXX ${CMAKE_CXX_COMPILER})

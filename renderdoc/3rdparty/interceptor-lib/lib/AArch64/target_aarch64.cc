@@ -52,7 +52,14 @@ std::vector<TrampolineConfig> TargetAARCH64::GetTrampolineConfigs(
   configs.push_back({FULL_TRAMPOLINE, false, 0, 0xffffffffffffffff});
   return configs;
 }
-
+/**
+ * 生成跳到新函数的跳板
+ * @param config
+ * @param codegen
+ * @param source 旧函数(未使用)
+ * @param target 新函数
+ * @return
+ */
 Error TargetAARCH64::EmitTrampoline(const TrampolineConfig &config,
                                     CodeGenerator &codegen, void *source,
                                     void *target) {
@@ -64,7 +71,7 @@ Error TargetAARCH64::EmitTrampoline(const TrampolineConfig &config,
       uint32_t target_addr32 = target_addr;
       codegen.AddInstruction(//增加指令
           llvm::MCInstBuilder(llvm::AArch64::LDRWl)
-              .addReg(llvm::AArch64::X17)
+              .addReg(llvm::AArch64::X17)//x17是内部调用临时寄存器
               .addExpr(codegen.CreateDataExpr(target_addr32)));
       codegen.AddInstruction(
           llvm::MCInstBuilder(llvm::AArch64::BR).addReg(llvm::AArch64::X17));
@@ -120,7 +127,10 @@ Error TargetAARCH64::RewriteInstruction(const llvm::MCInst &inst,
     case llvm::AArch64::MOVNXi:
     case llvm::AArch64::MOVZWi:
     case llvm::AArch64::MOVZXi:
-    case llvm::AArch64::MRS:
+    case llvm::AArch64::MRS://MRS指令用于将程序状态寄存器的内容传送到通用寄存器中。该指令一般用于以下两种情况：
+
+//（1）当需要改变程序状态寄存器的内容时，可用MRS将程序状态寄存器的内容读入通用寄存器，修改后再写回程序状态寄存器。
+//（2）当在异常处理或进程切换时，需要保存程序状态寄存器的值，可先用该指令读出程序状态寄存器的值，然后保存。
     case llvm::AArch64::ORRWrs:
     case llvm::AArch64::ORRXrs:
     case llvm::AArch64::STPDi:
@@ -143,7 +153,7 @@ Error TargetAARCH64::RewriteInstruction(const llvm::MCInst &inst,
       codegen.AddInstruction(inst);
       break;
     }
-    case llvm::AArch64::ADRP: {
+    case llvm::AArch64::ADRP: {//以页为单位的大范围的地址读取指令，这里的P就是page的意思。
       uint32_t Rd = inst.getOperand(0).getReg();
       uint64_t imm = inst.getOperand(1).getImm();
       possible_end_of_function = false;
@@ -187,7 +197,7 @@ Error TargetAARCH64::RewriteInstruction(const llvm::MCInst &inst,
           llvm::MCInstBuilder(llvm::AArch64::BLR).addReg(llvm::AArch64::X17));
       break;
     }
-    case llvm::AArch64::CBZX: {
+    case llvm::AArch64::CBZX: {//条件判断
       uint32_t Rt = inst.getOperand(0).getReg();
       uint64_t imm = inst.getOperand(1).getImm() << 2;
       possible_end_of_function = false;

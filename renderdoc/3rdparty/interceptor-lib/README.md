@@ -80,3 +80,9 @@ cp ./lib/Target/AArch64/AArch64*.inc  $TARGET_PATH/include/MCTargetDesc/
 ```
 
 Then you can set `-DUSE_INTERCEPTOR_LIB=On -DLLVM_DIR=/path/to/llvm/install_armXX/lib/cmake/llvm` when building renderdoc and you should see a line saying that LLVM is being used to compile interceptor-lib!
+
+
+
+
+
+cmake -DLLVM_HOST_TRIPLE:STRING=$LLVM_TRIPLE -DLLVM_TARGET_ARCH:STRING=$LLVM_ARCH -DLLVM_TARGETS_TO_BUILD:STRING=$LLVM_ARCH -DANDROID_ABI="arm64-v8a" -DANDROID_NATIVE_API_LEVEL=29 -DANDROID_TOOLCHAIN=clang -DANDROID_STL="c++_static" -DCMAKE_TOOLCHAIN_FILE:PATH=$NDK_PATH/build/cmake/android.toolchain.cmake  -DCMAKE_INSTALL_PREFIX=$TARGET_PATH -DCMAKE_BUILD_TYPE=RelWithDebInfo -DLLVM_BUILD_RUNTIME=Off -DLLVM_INCLUDE_TESTS=Off -DLLVM_INCLUDE_EXAMPLES=Off -DLLVM_ENABLE_BACKTRACES=Off -DLLVM_TABLEGEN=$TBLGEN_PATH -DLLVM_BUILD_TOOLS=Off -DLLVM_INCLUDE_TOOLS=Off -DLLVM_USE_HOST_TOOLS=Off ../llvm

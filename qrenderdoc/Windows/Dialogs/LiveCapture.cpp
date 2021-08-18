@@ -277,7 +277,10 @@ void LiveCapture::on_queueCap_clicked()
   m_QueueCaptureFrameNum = (int)ui->captureFrame->value();
   m_QueueCapture.release();
 }
-
+/**
+ * 
+ * 开始捕捉
+ */
 void LiveCapture::on_triggerImmediateCapture_clicked()
 {
   m_CaptureNumFrames = (int)ui->numFrames->value();
